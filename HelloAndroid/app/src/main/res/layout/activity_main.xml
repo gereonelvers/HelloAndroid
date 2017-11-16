@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:contentDescription="udacity_logo"
+        android:layout_width="match_parent"
+        android:id="@+id/logo"
+        android:layout_height="0dp"
+        android:src="@drawable/logo_wordmark"
+        android:scaleType="center"
+        android:background="#998e8e8e"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:text="Udacity is a for-profit educational organization founded by Sebastian Thrun, David Stavens, and Mike Sokolsky offering massive open online courses."
+        android:textSize="25sp"
+        android:gravity="top"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#998e8e8e"
+        android:fontFamily="sans-serif"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textColor="#2d3c49"/>
+
+    <TextView
+    android:text="Udacity
+2465 Latham St
+Mountain View, CA 94043"
+    android:id="@+id/address"
+    android:textSize="25sp"
+    android:padding="8dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="#998e8e8e"
+    android:fontFamily="sans-serif"
+    android:layout_weight="0.5"
+    android:textColor="#2d3c49"/>
+
+    <TextView
+        android:text="650-555-5555"
+        android:id="@+id/tel"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#998e8e8e"
+        android:fontFamily="sans-serif"
+        android:layout_weight="0.25"
+        android:textColor="#2d3c49"/>
+
+    <TextView
+        android:text="check out udacity.com"
+        android:id="@+id/link"
+        android:textAllCaps="true"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        android:paddingBottom="5dp"
+        android:fontFamily="sans-serif"
+        android:background="#998e8e8e"
+        android:textColor="#2d3c49"
+        android:textColorLink="#2d3c49"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:layout_weight="0.25"/>
+
+</LinearLayout>
